@@ -1,7 +1,7 @@
 # My_Augmentor
 Sementic Segmentation data augmentation
 
-0.运行环境为matlab
+0.运行环境为matlab。
 
 
 1.my_Augment_data.m文件用来对原数据进行数据增强，数据增强方式共分为上下翻转，左右翻转，旋转90度，旋转180度，旋转270度几种方式;数据集被扩充为原来的6倍。
