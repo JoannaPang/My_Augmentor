@@ -12,17 +12,17 @@ Sementic Segmentation data augmentation
 3.数据的组织方式为：
 
 
-data|---|JPEGImages（原图）
+    data|---|JPEGImages（原图）
 
-        |SegmentationClass（原图对应的标签）
+            |SegmentationClass（原图对应的标签）
         
-        |ImageSets|---|Segmentation|---|trainval.txt（所有数据的list）
+            |ImageSets|---|Segmentation|---|trainval.txt（所有数据的list）
         
         
-                                       |train.txt（训练用数据的list）
+                                           |train.txt（训练用数据的list）
                                        
                                        
-                                       |val.txt（验证用数据的list）
+                                           |val.txt（验证用数据的list）
                                        
                                        
 
